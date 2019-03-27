@@ -1,0 +1,4 @@
+<resources>
+    <string name="os_version_not_support_printer">抱歉,你当前的系统版本不支持打印服务</string>
+    <string name="add_print_job_failed">添加打印任务失败</string>
+</resources>

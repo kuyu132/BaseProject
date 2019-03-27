@@ -1,0 +1,33 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+    }
+
+}
+
+dependencies {
+    api project(':baselib:utils')
+    api project(':baselib:network')
+
+    api rootProject.ext.dependencies.supportV4
+    api rootProject.ext.dependencies.appcompatV7
+    api rootProject.ext.dependencies.recyclerviewV7
+    api rootProject.ext.dependencies.constraintLayout
+    api rootProject.ext.dependencies.BaseRecyclerViewAdapterHelper
+    api rootProject.ext.dependencies.kotlinStdlib
+
+    api(rootProject.ext.dependencies.glide) {
+        exclude group: "com.android.support"
+    }
+
+    api rootProject.ext.dependencies.rxjava2_debug
+    api rootProject.ext.dependencies.rxLifecycle
+}

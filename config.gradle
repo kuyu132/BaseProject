@@ -1,0 +1,61 @@
+ext {
+    compileSdkVersion = 28
+    minSdkVersion = 16
+    targetSdkVersion = 28
+    kotlinVersion = "1.3.20"
+    androidGradleVersion = "3.1.4"
+    googleServicesVersion = "4.0.2"
+    androidSupportVersion = "27.1.1"
+    androidSupportDesignVersion = "27.1.1"
+    dependencies = [
+            supportV4                    : "com.android.support:support-v4:${androidSupportVersion}",
+            appcompatV7                  : "com.android.support:appcompat-v7:${androidSupportVersion}",
+            supportDegign                : "com.android.support:design:${androidSupportDesignVersion}",
+            recyclerviewV7               : "com.android.support:recyclerview-v7:${androidSupportVersion}",
+            multidex                     : "com.android.support:multidex:1.0.3",
+            crashlytics                  : "com.crashlytics.sdk.android:crashlytics:2.9.2@aar",
+            umeng_analytics              : "com.umeng.analytics:analytics:6.1.4",
+            crashreport                  : "com.tencent.bugly:crashreport:2.6.6.1",
+            nativecrashreport            : "com.tencent.bugly:nativecrashreport:3.3.1",
+            okio                         : "com.squareup.okio:okio:1.6.0",
+            logging_interceptor          : "com.squareup.okhttp3:logging-interceptor:3.4.1",
+            gson                         : "com.google.code.gson:gson:2.3.1",
+            firebase_ads                 : "com.google.firebase:firebase-ads:10.0.1",
+            BaseRecyclerViewAdapterHelper: "com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.34",
+            //https://github.com/ReactiveX/RxAndroid
+            rxandroid                    : 'io.reactivex.rxjava2:rxandroid:2.0.1',
+            //rxjava2-debug https://github.com/akaita/RxJava2Debug
+            rxjava2_debug                : "com.akaita.java:rxjava2-debug:1.2.2",
+            //https://github.com/ReactiveX/RxJava
+            rxjava                       : 'io.reactivex.rxjava2:rxjava:2.1.0',
+            rxpermission                 : 'com.tbruyelle.rxpermissions2:rxpermissions:0.9.4@aar',
+            rxLifecycle                  : 'com.trello.rxlifecycle2:rxlifecycle:2.2.2',
+            kotlin_extension             : "org.jetbrains.kotlin:kotlin-android-extensions:${kotlinVersion}",
+            kotlinStdlib                : "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${rootProject.ext.kotlinVersion}",
+            constraintLayout            : "com.android.support.constraint:constraint-layout:1.1.3",
+            //https://github.com/square/retrofit
+            retrofit                     : 'com.squareup.retrofit2:retrofit:2.3.0',
+            retrofitAdapterRxjava        : 'com.squareup.retrofit2:adapter-rxjava2:2.3.0',
+            retrofitConverterGson        : 'com.squareup.retrofit2:converter-gson:2.3.0',
+            //https://github.com/square/okhttp
+            okhttpLoggingInterceptor     : 'com.squareup.okhttp3:logging-interceptor:3.11.0',
+            //https://github.com/facebook/stetho/
+            stetho                       : 'com.facebook.stetho:stetho:1.5.0',
+            stethoOkhttp                 : 'com.facebook.stetho:stetho-okhttp3:1.5.0',
+            junit                        : "junit:junit:4.12",
+            //https://github.com/bumptech/glide
+            glide                        : 'com.github.bumptech.glide:glide:4.7.1',
+    ]
+
+    abiFilters = ['armeabi-v7a', 'x86']
+
+    signConfig = [releaseKeystorePath: projectDir.path + "/doc/名称.keystore",
+                  keyAlias           : "名称.keystore",
+                  keyPassword        : "密码",
+                  storePassword      : "密码"]
+
+    bugly = [// 注册时分配的App ID
+             appId : "你的id值",
+             // 注册时分配的App Key
+             appKey: "你的key值",]
+}

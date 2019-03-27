@@ -1,0 +1,23 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+    }
+}
+
+dependencies {
+    api rootProject.ext.dependencies.retrofit
+    api rootProject.ext.dependencies.retrofitConverterGson
+    api rootProject.ext.dependencies.retrofitAdapterRxjava
+    api rootProject.ext.dependencies.rxandroid
+    api rootProject.ext.dependencies.rxjava
+    implementation rootProject.ext.dependencies.okhttpLoggingInterceptor
+    debugApi rootProject.ext.dependencies.stetho
+    api rootProject.ext.dependencies.stethoOkhttp
+}
