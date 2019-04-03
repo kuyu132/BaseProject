@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.akaita.java:rxjava2-debug:1.2.2@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.akaita.java/rxjava2-debug/1.2.2/b7b031d028010f0a55dec20f5b1fac45fe56ae94/rxjava2-debug-1.2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.akaita.java/rxjava2-debug/1.2.2/b200687c3176de4ff937f3f9090d52330c8ad742/rxjava2-debug-1.2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

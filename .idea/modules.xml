@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BaseProject-master.iml" filepath="$PROJECT_DIR$/BaseProject-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baselib/baselib.iml" filepath="$PROJECT_DIR$/baselib/baselib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bizlib/bizbase/bizbase.iml" filepath="$PROJECT_DIR$/bizlib/bizbase/bizbase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bizlib/bizlib.iml" filepath="$PROJECT_DIR$/bizlib/bizlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baselib/network/network.iml" filepath="$PROJECT_DIR$/baselib/network/network.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baselib/utils/utils.iml" filepath="$PROJECT_DIR$/baselib/utils/utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bizlib/widget/widget.iml" filepath="$PROJECT_DIR$/bizlib/widget/widget.iml" />
+    </modules>
+  </component>
+</project>
