@@ -8,10 +8,10 @@ ext {
     androidSupportVersion = "27.1.1"
     androidSupportDesignVersion = "27.1.1"
     dependencies = [
-            supportV4                    : "com.android.support:support-v4:${androidSupportVersion}",
-            appcompatV7                  : "com.android.support:appcompat-v7:${androidSupportVersion}",
+            supportV4                    : 'androidx.legacy:legacy-support-v4:1.0.0',
+            appcompatV7                  : 'androidx.appcompat:appcompat:1.0.0',
             supportDegign                : "com.android.support:design:${androidSupportDesignVersion}",
-            recyclerviewV7               : "com.android.support:recyclerview-v7:${androidSupportVersion}",
+            recyclerviewV7               : 'androidx.recyclerview:recyclerview:1.0.0',
             multidex                     : "com.android.support:multidex:1.0.3",
             crashlytics                  : "com.crashlytics.sdk.android:crashlytics:2.9.2@aar",
             umeng_analytics              : "com.umeng.analytics:analytics:6.1.4",
@@ -32,7 +32,7 @@ ext {
             rxLifecycle                  : 'com.trello.rxlifecycle2:rxlifecycle:2.2.2',
             kotlin_extension             : "org.jetbrains.kotlin:kotlin-android-extensions:${kotlinVersion}",
             kotlinStdlib                : "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${rootProject.ext.kotlinVersion}",
-            constraintLayout            : "com.android.support.constraint:constraint-layout:1.1.3",
+            constraintLayout            : 'androidx.constraintlayout:constraintlayout:1.1.3',
             //https://github.com/square/retrofit
             retrofit                     : 'com.squareup.retrofit2:retrofit:2.3.0',
             retrofitAdapterRxjava        : 'com.squareup.retrofit2:adapter-rxjava2:2.3.0',

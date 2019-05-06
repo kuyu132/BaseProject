@@ -4,9 +4,9 @@ import android.content.Context
 import android.graphics.Bitmap
 import android.graphics.drawable.Drawable
 import android.net.Uri
-import android.support.annotation.DrawableRes
-import android.support.v7.widget.RecyclerView
 import android.widget.ImageView
+import androidx.annotation.DrawableRes
+import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.RequestBuilder
 import com.bumptech.glide.load.engine.DiskCacheStrategy
@@ -118,7 +118,7 @@ object LoadImageUtils {
     /**
      * 创建RecyclerView的暂停加载滚动监听器
      */
-    fun createAutoPauseLoadRequestsScrollListenerForRV(): RecyclerView.OnScrollListener {
+    fun createAutoPauseLoadRequestsScrollListenerForRV(): androidx.recyclerview.widget.RecyclerView.OnScrollListener {
         return AutoPauseLoadRequestsRecyclerViewScrollListener()
     }
 
@@ -126,11 +126,11 @@ object LoadImageUtils {
      * 当快速滚动时暂停加载(RecyclerView)
      */
     private class AutoPauseLoadRequestsRecyclerViewScrollListener : RecyclerView.OnScrollListener() {
-        override fun onScrollStateChanged(recyclerView: RecyclerView?, newState: Int) {
+        override fun onScrollStateChanged(recyclerView: RecyclerView, newState: Int) {
             super.onScrollStateChanged(recyclerView, newState)
             recyclerView?.let {
                 val context = it.context
-                if (newState == RecyclerView.SCROLL_STATE_IDLE) {
+                if (newState == androidx.recyclerview.widget.RecyclerView.SCROLL_STATE_IDLE) {
                     if (Glide.with(context).isPaused) {
                         Glide.with(context).resumeRequests()
                     }

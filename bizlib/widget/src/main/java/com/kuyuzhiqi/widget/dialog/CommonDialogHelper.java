@@ -3,7 +3,7 @@ package cn.smartinspection.widget.dialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.support.v7.app.AlertDialog;
+import androidx.appcompat.app.AlertDialog;
 import cn.smartinspection.widget.R;
 
 /**

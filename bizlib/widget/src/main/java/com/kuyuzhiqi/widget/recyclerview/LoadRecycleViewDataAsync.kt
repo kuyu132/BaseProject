@@ -1,7 +1,7 @@
 package cn.smartinspection.widget.recyclerview
 
 import android.os.Bundle
-import android.support.v7.widget.RecyclerView
+import androidx.recyclerview.widget.RecyclerView
 import android.widget.TextView
 import io.reactivex.Single
 import io.reactivex.SingleOnSubscribe
@@ -61,7 +61,7 @@ object LoadRecycleViewDataAsync {
     }
 }
 
-abstract class LoadTask<T>(val recyclerView: RecyclerView,
+abstract class LoadTask<T>(val recyclerView: androidx.recyclerview.widget.RecyclerView,
                            val textViewId: Int, val position: Int) {
     var result: T? = null
 
