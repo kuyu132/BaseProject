@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: com.facebook.stetho:stetho:1.5.0@aar">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-stetho-1.5.0.aar/6f43994708b8c97e7f36e55411cc324b/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-stetho-1.5.0.aar/df851abab29975c07f22ab7e6770bdb6/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-stetho-1.5.0.aar/6f43994708b8c97e7f36e55411cc324b/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-stetho-1.5.0.aar/6f43994708b8c97e7f36e55411cc324b/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-stetho-1.5.0.aar/df851abab29975c07f22ab7e6770bdb6/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-stetho-1.5.0.aar/df851abab29975c07f22ab7e6770bdb6/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

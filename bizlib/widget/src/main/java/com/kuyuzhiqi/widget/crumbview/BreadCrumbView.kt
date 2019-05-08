@@ -10,7 +10,7 @@ import android.widget.HorizontalScrollView
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
-import cn.smartinspection.widget.R
+import com.kuyuzhiqi.widget.R
 
 /**
  * Created by kuyuzhiqi on 20/12/2017.
@@ -43,7 +43,7 @@ class BreadCrumbView(context: Context, attrs: AttributeSet? = null) : Horizontal
         val itemView: View = LayoutInflater.from(context).inflate(R.layout.item_bread_crumb_view, null)
         val tv: TextView = itemView.findViewById(R.id.crumb_name) as TextView
         tv.setText(name)
-        tv.setOnClickListener({
+        tv.setOnClickListener {
             val numCrumbs: Int = mContainer.childCount
             val index = mContainer.indexOfChild(itemView)
             if (index < numCrumbs - 1) {
@@ -54,7 +54,7 @@ class BreadCrumbView(context: Context, attrs: AttributeSet? = null) : Horizontal
                 }
                 highLightIndex()
             }
-        })
+        }
         mContainer.addView(itemView)
         highLightIndex()
     }

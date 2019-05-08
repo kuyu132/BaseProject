@@ -10,4 +10,10 @@
     <string name="one_week">一周</string>
     <string name="two_to_seven">2-7天</string>
     <string name="three_to_seven">3-7天</string>
+    <string name="back">返回</string>
+    <string name="cancel">取消</string>
+    <string name="ok">确定</string>
+    <string name="dialog_no_network_hint_message">您当前的网络不可用,请检查您的网络设置</string>
+    <string name="network_setting">网络设置</string>
+    <string name="hint">提示</string>
 </resources>

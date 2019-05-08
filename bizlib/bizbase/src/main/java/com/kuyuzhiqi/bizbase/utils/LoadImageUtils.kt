@@ -128,7 +128,7 @@ object LoadImageUtils {
     private class AutoPauseLoadRequestsRecyclerViewScrollListener : RecyclerView.OnScrollListener() {
         override fun onScrollStateChanged(recyclerView: RecyclerView, newState: Int) {
             super.onScrollStateChanged(recyclerView, newState)
-            recyclerView?.let {
+            recyclerView.let {
                 val context = it.context
                 if (newState == androidx.recyclerview.widget.RecyclerView.SCROLL_STATE_IDLE) {
                     if (Glide.with(context).isPaused) {

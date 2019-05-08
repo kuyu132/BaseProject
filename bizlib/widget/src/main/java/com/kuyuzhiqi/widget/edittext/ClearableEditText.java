@@ -11,7 +11,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.View.OnFocusChangeListener;
 import android.view.View.OnTouchListener;
-import cn.smartinspection.widget.R;
+import com.kuyuzhiqi.widget.R;
 
 /**
  * 自带清除按钮的EditText.

@@ -1,4 +1,4 @@
-package cn.smartinspection.widget.recyclerview
+package com.kuyuzhiqi.widget.recyclerview
 
 import android.content.Context
 import android.graphics.Canvas

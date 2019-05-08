@@ -1,4 +1,4 @@
-package cn.smartinspection.widget.listener;
+package com.kuyuzhiqi.widget.listener;
 
 import androidx.core.view.GestureDetectorCompat;
 import androidx.recyclerview.widget.RecyclerView;

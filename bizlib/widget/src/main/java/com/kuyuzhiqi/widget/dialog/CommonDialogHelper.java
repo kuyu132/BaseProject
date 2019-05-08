@@ -1,10 +1,10 @@
-package cn.smartinspection.widget.dialog;
+package com.kuyuzhiqi.widget.dialog;
 
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import androidx.appcompat.app.AlertDialog;
-import cn.smartinspection.widget.R;
+import com.kuyuzhiqi.widget.R;
 
 /**
  * 常用的对话框

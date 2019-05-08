@@ -1,9 +1,9 @@
-package cn.smartinspection.widget.dialog;
+package com.kuyuzhiqi.widget.dialog;
 
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
-import cn.smartinspection.widget.R;
+import com.kuyuzhiqi.widget.R;
 
 public class LoadingDialogHelper {
 

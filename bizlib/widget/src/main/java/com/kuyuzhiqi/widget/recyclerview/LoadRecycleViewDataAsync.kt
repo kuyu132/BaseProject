@@ -1,4 +1,4 @@
-package cn.smartinspection.widget.recyclerview
+package com.kuyuzhiqi.widget.recyclerview
 
 import android.os.Bundle
 import androidx.recyclerview.widget.RecyclerView

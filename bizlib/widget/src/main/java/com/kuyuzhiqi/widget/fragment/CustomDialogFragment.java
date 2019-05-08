@@ -1,4 +1,4 @@
-package cn.smartinspection.widget.fragment;
+package com.kuyuzhiqi.widget.fragment;
 
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;
@@ -7,7 +7,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.os.Bundle;
 import androidx.fragment.app.DialogFragment;
-import cn.smartinspection.widget.R;
+import com.kuyuzhiqi.widget.R;
 
 /**
  * Created by kuyuzhiqi on 2017/5/5.

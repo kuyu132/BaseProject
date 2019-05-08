@@ -1,15 +1,11 @@
-package cn.smartinspection.widget.crumbview
+package com.kuyuzhiqi.widget.crumbview
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
-import androidx.fragment.app.FragmentManager
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import cn.smartinspection.widget.R
-import java.util.ArrayList
+import com.kuyuzhiqi.widget.R
+import java.util.*
 
 /**
  * Created by kuyuzhiqi on 20/12/2017.

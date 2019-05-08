@@ -1,4 +1,5 @@
 apply plugin: 'com.android.library'
+apply plugin: 'org.greenrobot.greendao'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
@@ -16,7 +17,7 @@ android {
 dependencies {
     api project(':baselib:utils')
     api project(':baselib:network')
-
+    api rootProject.ext.dependencies.greendao
     api rootProject.ext.dependencies.supportV4
     api rootProject.ext.dependencies.appcompatV7
     api rootProject.ext.dependencies.recyclerviewV7
