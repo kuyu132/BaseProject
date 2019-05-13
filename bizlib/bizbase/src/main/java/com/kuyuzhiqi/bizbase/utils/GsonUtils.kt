@@ -37,4 +37,8 @@ object GsonUtils {
     fun <T> mapToJson(map: Map<String, T>): String {
         return gson!!.toJson(map)
     }
+
+    fun <T> jsonToMap(jsString: String): java.util.HashMap<*, *>? {
+        return gson!!.fromJson(jsString,HashMap::class.java)
+    }
 }
