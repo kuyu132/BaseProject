@@ -36,7 +36,8 @@ android {
 }
 
 dependencies {
-    api project(':bizlib:bizbase')
+    implementation project(':bizlib:bizbase')
+    implementation project(':bizlib:bizdb')
 }
 repositories {
     mavenCentral()

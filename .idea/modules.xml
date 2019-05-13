@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/baselib/baselib.iml" filepath="$PROJECT_DIR$/baselib/baselib.iml" />
       <module fileurl="file://$PROJECT_DIR$/bizlib/bizbase/bizbase.iml" filepath="$PROJECT_DIR$/bizlib/bizbase/bizbase.iml" />
       <module fileurl="file://$PROJECT_DIR$/bizlib/bizlib.iml" filepath="$PROJECT_DIR$/bizlib/bizlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bizlib/bizdb/bizlib-bizdb.iml" filepath="$PROJECT_DIR$/bizlib/bizdb/bizlib-bizdb.iml" />
       <module fileurl="file://$PROJECT_DIR$/baselib/network/network.iml" filepath="$PROJECT_DIR$/baselib/network/network.iml" />
       <module fileurl="file://$PROJECT_DIR$/baselib/utils/utils.iml" filepath="$PROJECT_DIR$/baselib/utils/utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/bizlib/widget/widget.iml" filepath="$PROJECT_DIR$/bizlib/widget/widget.iml" />

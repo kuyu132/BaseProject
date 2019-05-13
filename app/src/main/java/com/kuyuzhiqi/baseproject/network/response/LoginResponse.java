@@ -1,7 +1,7 @@
 package com.kuyuzhiqi.baseproject.network.response;
 
 
-import com.kuyuzhiqi.baseproject.entity.User;
+import com.kuyuzhiqi.baseproject.db.entity.User;
 import com.kuyuzhiqi.network.reponse.BaseBizResponse;
 
 public class LoginResponse extends BaseBizResponse {

@@ -14,6 +14,7 @@
             <option value="$PROJECT_DIR$/baselib/utils" />
             <option value="$PROJECT_DIR$/bizlib" />
             <option value="$PROJECT_DIR$/bizlib/bizbase" />
+            <option value="$PROJECT_DIR$/bizlib/bizdb" />
             <option value="$PROJECT_DIR$/bizlib/widget" />
           </set>
         </option>

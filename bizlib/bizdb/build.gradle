@@ -1,0 +1,22 @@
+apply plugin: 'com.android.library'
+apply plugin: 'org.greenrobot.greendao'
+
+greendao {
+    schemaVersion 1
+    daoPackage 'com.kuyuzhiqi.baseproject.db.entity'
+}
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    api rootProject.ext.dependencies.greendao
+}
